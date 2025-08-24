@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesouros de Ametista</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            background-color: #fdf8ff;
+            color: #4a2a69;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(74, 42, 105, 0.1);
+            border: 1px solid #e0c8ff;
+        }
+        h1 {
+            font-size: 2.8em;
+            color: #6a3a93;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        p {
+            font-size: 1.4em;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+            text-align: center;
+        }
+        .produtos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .produto-card {
+            background: #f7f2fa;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(74, 42, 105, 0.07);
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #e0c8ff;
+            transition: transform 0.2s;
+        }
+        .produto-card:hover {
+            transform: translateY(-5px) scale(1.03);
+        }
+        .produto-img {
+            width: 100%;
+            max-width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #d1b3ff;
+        }
+        .produto-nome {
+            font-size: 1.2em;
+            color: #6a3a93;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .produto-preco {
+            font-size: 1.1em;
+            color: #8a2be2;
+            margin-bottom: 15px;
+        }
+        .comprar-btn {
+            background: linear-gradient(90deg, #8a2be2 0%, #6a3a93 100%);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 24px;
+            font-size: 1em;
+            cursor: pointer;
+            font-family: inherit;
+            transition: background 0.2s;
+        }
+        .comprar-btn:hover {
+            background: linear-gradient(90deg, #6a3a93 0%, #8a2be2 100%);
+        }
+        @media (max-width: 600px) {
+            .container { padding: 10px; }
+            .produtos-grid { gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tesouros de Ametista</h1>
+        <p>Conectando você à energia pura das pedras preciosas. Escolha seu tesouro e leve proteção, equilíbrio e beleza para sua vida!</p>
+        <div class="produtos-grid">
+            <!-- Produto 1 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.51_2aa46aee.jpg" alt="Produto 1">
+                <div class="produto-nome">Ametista Bruta 1</div>
+                <div class="produto-preco">R$ 39,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 2 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.51_3541b61d.jpg" alt="Produto 2">
+                <div class="produto-nome">Ametista Bruta 2</div>
+                <div class="produto-preco">R$ 42,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 3 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.51_42ca14bc.jpg" alt="Produto 3">
+                <div class="produto-nome">Ametista Bruta 3</div>
+                <div class="produto-preco">R$ 44,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 4 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.51_4b5b755a.jpg" alt="Produto 4">
+                <div class="produto-nome">Ametista Bruta 4</div>
+                <div class="produto-preco">R$ 49,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 5 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.51_ca050f2d.jpg" alt="Produto 5">
+                <div class="produto-nome">Ametista Bruta 5</div>
+                <div class="produto-preco">R$ 39,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 6 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.52_1fa4e00e.jpg" alt="Produto 6">
+                <div class="produto-nome">Ametista Bruta 6</div>
+                <div class="produto-preco">R$ 41,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 7 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.52_2a370b92.jpg" alt="Produto 7">
+                <div class="produto-nome">Ametista Bruta 7</div>
+                <div class="produto-preco">R$ 43,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 8 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.52_b9fd93f0.jpg" alt="Produto 8">
+                <div class="produto-nome">Ametista Bruta 8</div>
+                <div class="produto-preco">R$ 45,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 9 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.52_fcf4b3d1.jpg" alt="Produto 9">
+                <div class="produto-nome">Ametista Bruta 9</div>
+                <div class="produto-preco">R$ 47,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 10 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.53_0ab68349.jpg" alt="Produto 10">
+                <div class="produto-nome">Ametista Bruta 10</div>
+                <div class="produto-preco">R$ 49,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 11 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.53_0b46de29.jpg" alt="Produto 11">
+                <div class="produto-nome">Ametista Bruta 11</div>
+                <div class="produto-preco">R$ 39,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 12 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.53_49072cd9.jpg" alt="Produto 12">
+                <div class="produto-nome">Ametista Bruta 12</div>
+                <div class="produto-preco">R$ 41,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 13 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.53_c11daf04.jpg" alt="Produto 13">
+                <div class="produto-nome">Ametista Bruta 13</div>
+                <div class="produto-preco">R$ 43,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 14 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.53_f5da2c9e.jpg" alt="Produto 14">
+                <div class="produto-nome">Ametista Bruta 14</div>
+                <div class="produto-preco">R$ 45,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 15 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.54_171538a0.jpg" alt="Produto 15">
+                <div class="produto-nome">Ametista Bruta 15</div>
+                <div class="produto-preco">R$ 47,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 16 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.54_67752cd7.jpg" alt="Produto 16">
+                <div class="produto-nome">Ametista Bruta 16</div>
+                <div class="produto-preco">R$ 49,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 17 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.54_855cb30f.jpg" alt="Produto 17">
+                <div class="produto-nome">Ametista Bruta 17</div>
+                <div class="produto-preco">R$ 39,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 18 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.54_b8964594.jpg" alt="Produto 18">
+                <div class="produto-nome">Ametista Bruta 18</div>
+                <div class="produto-preco">R$ 41,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- Produto 19 -->
+            <div class="produto-card">
+                <img class="produto-img" src="imagens/Imagem do WhatsApp de 2025-08-24 à(s) 15.24.55_0155a870.jpg" alt="Produto 19">
+                <div class="produto-nome">Ametista Bruta 19</div>
+                <div class="produto-preco">R$ 43,90</div>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <!-- ...adicione mais produtos conforme necessário... -->
+        </div>
+    </div>
+</body>
+</html>
